@@ -1,0 +1,124 @@
+English Language Agnostic English, Logistic Regression first run and feature export
+
+Group ACLU, Accuracy: 0.5263157894736842
+0 class (20.0/20.0/38.0): Precision=1.0,Recall=0.5263157894736842,F1-Measure=0.6896551724137931
+1 class (18.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group AEU, Accuracy: 0.4
+0 class (6.0/6.0/15.0): Precision=1.0,Recall=0.4,F1-Measure=0.5714285714285715
+1 class (9.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group alqaeda, Accuracy: 0.7241379310344828
+0 class (8.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+1 class (21.0/21.0/29.0): Precision=1.0,Recall=0.7241379310344828,F1-Measure=0.8400000000000001
+
+Group AndrewMurray, Accuracy: 1.0
+0 class (1.0/1.0/1.0): Precision=1.0,Recall=1.0,F1-Measure=1.0
+1 class (0.0/0.0/0.0): Precision=NaN,Recall=NaN,F1-Measure=NaN
+
+Group aqis, Accuracy: 0.8333333333333334
+0 class (1.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+1 class (5.0/5.0/6.0): Precision=1.0,Recall=0.8333333333333334,F1-Measure=0.9090909090909091
+
+Group asl, Accuracy: 0.8571428571428571
+0 class (1.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+1 class (6.0/6.0/7.0): Precision=1.0,Recall=0.8571428571428571,F1-Measure=0.923076923076923
+
+Group ast, Accuracy: 0.8333333333333334
+0 class (1.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+1 class (5.0/5.0/6.0): Precision=1.0,Recall=0.8333333333333334,F1-Measure=0.9090909090909091
+
+Group Bahai, Accuracy: 0.676056338028169
+0 class (48.0/48.0/71.0): Precision=1.0,Recall=0.676056338028169,F1-Measure=0.8067226890756303
+1 class (23.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group boko-haram, Accuracy: 0.7058823529411765
+0 class (5.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+1 class (12.0/12.0/17.0): Precision=1.0,Recall=0.7058823529411765,F1-Measure=0.8275862068965517
+
+Group YV, Accuracy: 0.8947368421052632
+0 class (51.0/51.0/57.0): Precision=1.0,Recall=0.8947368421052632,F1-Measure=0.9444444444444444
+1 class (6.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group ISIS, Accuracy: 0.7
+0 class (6.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+1 class (14.0/14.0/20.0): Precision=1.0,Recall=0.7,F1-Measure=0.8235294117647058
+
+Group JohnPiper, Accuracy: 0.9982238010657194
+0 class (562.0/562.0/563.0): Precision=1.0,Recall=0.9982238010657194,F1-Measure=0.9991111111111112
+1 class (1.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group MehrBaba, Accuracy: 0.7821782178217822
+0 class (79.0/79.0/101.0): Precision=1.0,Recall=0.7821782178217822,F1-Measure=0.8777777777777778
+1 class (22.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group NaumanKhan, Accuracy: 0.7333333333333333
+0 class (11.0/11.0/15.0): Precision=1.0,Recall=0.7333333333333333,F1-Measure=0.846153846153846
+1 class (4.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group nusra-front, Accuracy: 0.6363636363636364
+0 class (4.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+1 class (7.0/7.0/11.0): Precision=1.0,Recall=0.6363636363636364,F1-Measure=0.7777777777777778
+
+Group PeterGomes, Accuracy: 1.0
+0 class (1.0/1.0/1.0): Precision=1.0,Recall=1.0,F1-Measure=1.0
+1 class (0.0/0.0/0.0): Precision=NaN,Recall=NaN,F1-Measure=NaN
+
+English Language Agnostic English, Logistic Regression first run and feature export
+
+Group Schizophrenia, Accuracy: 0.6875
+0 class (33.0/33.0/48.0): Precision=1.0,Recall=0.6875,F1-Measure=0.8148148148148148
+1 class (15.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group SeaShepherds, Accuracy: 0.714759535655058
+0 class (172.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+1 class (431.0/431.0/603.0): Precision=1.0,Recall=0.714759535655058,F1-Measure=0.8336557059961315
+
+Group Shepherd, Accuracy: 0.9931318681318682
+0 class (723.0/723.0/728.0): Precision=1.0,Recall=0.9931318681318682,F1-Measure=0.996554100620262
+1 class (5.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group Stalin, Accuracy: 0.5
+0 class (1.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+1 class (1.0/1.0/2.0): Precision=1.0,Recall=0.5,F1-Measure=0.6666666666666666
+
+Group taliban, Accuracy: 0.8333333333333334
+0 class (1.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+1 class (5.0/5.0/6.0): Precision=1.0,Recall=0.8333333333333334,F1-Measure=0.9090909090909091
+
+Group Unabomber, Accuracy: 0.48148148148148145
+0 class (14.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+1 class (13.0/13.0/27.0): Precision=1.0,Recall=0.48148148148148145,F1-Measure=0.65
+
+Group Unitarian, Accuracy: 0.8125
+0 class (143.0/143.0/176.0): Precision=1.0,Recall=0.8125,F1-Measure=0.896551724137931
+1 class (33.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group WBC, Accuracy: 0.9645390070921985
+0 class (408.0/408.0/423.0): Precision=1.0,Recall=0.9645390070921985,F1-Measure=0.9819494584837545
+1 class (15.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group hamza-yusuf, Accuracy: 0.42857142857142855
+0 class (3.0/3.0/7.0): Precision=1.0,Recall=0.42857142857142855,F1-Measure=0.6
+1 class (4.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group yasir-qadhi, Accuracy: 0.0
+0 class (0.0/0.0/2.0): Precision=NaN,Recall=0.0,F1-Measure=NaN
+1 class (2.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group zakir-naik, Accuracy: 0.6521739130434783
+0 class (15.0/15.0/23.0): Precision=1.0,Recall=0.6521739130434783,F1-Measure=0.7894736842105263
+1 class (8.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group suhaib-webb, Accuracy: 0.4375
+0 class (7.0/7.0/16.0): Precision=1.0,Recall=0.4375,F1-Measure=0.6086956521739131
+1 class (9.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group KKK, Accuracy: 0.49056603773584906
+0 class (27.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+1 class (26.0/26.0/53.0): Precision=1.0,Recall=0.49056603773584906,F1-Measure=0.6582278481012659
+
+Group white-supremacist, Accuracy: 0.5394265232974911
+0 class (257.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+1 class (301.0/301.0/558.0): Precision=1.0,Recall=0.5394265232974911,F1-Measure=0.7008149010477299
+
