@@ -101,7 +101,7 @@ Group hamza-yusuf, Accuracy: 0.42857142857142855
 1 class (4.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
 
 Group yasir-qadhi, Accuracy: 0.0
-0 class (0.0/0.0/2.0): Precision=NaN,Recall=0.0,F1-Measure=NaN
+0 class (0.0/0.0/2.0): Precision=NaN,Recall=0.0,F1-Measure=0.0
 1 class (2.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
 
 Group zakir-naik, Accuracy: 0.6521739130434783

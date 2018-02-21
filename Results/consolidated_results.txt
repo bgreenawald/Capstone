@@ -1,3 +1,9 @@
+2/15/18 - LR
+First english run without oversampling and feature export
+
+Violent group average F-1 0.8022006283538831
+Non-Violent group average F-1: 0.8107971416757983
+
 2/20/18 - Random Forest
 English first baseline run with oversampling
 
