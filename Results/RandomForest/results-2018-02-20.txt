@@ -1,0 +1,145 @@
+English first baseline run with oversampling
+
+ACLU
+Accurary: 0.0
+F1-Score: 0.0
+
+AEU
+Accurary: 0.133333333333
+F1-Score: 0.235294117647
+
+alqaeda
+Accurary: 1.0
+F1-Score: 1.0
+
+AndrewMurray
+Accurary: 0.0
+F1-Score: 0.0
+
+aqis
+Accurary: 1.0
+F1-Score: 1.0
+
+asl
+Accurary: 1.0
+F1-Score: 1.0
+
+ast
+Accurary: 1.0
+F1-Score: 1.0
+
+Bahai
+Accurary: 0.0
+F1-Score: 0.0
+
+boko-haram
+Accurary: 1.0
+F1-Score: 1.0
+
+DorothyDay
+Accurary: 0.618863049096
+F1-Score: 0.764565043895
+
+Ghandi
+Accurary: 0.916666666667
+F1-Score: 0.95652173913
+
+YV
+Accurary: 0.0350877192982
+F1-Score: 0.0677966101695
+
+ISIS
+Accurary: 1.0
+F1-Score: 1.0
+
+JohnPiper
+Accurary: 0.994671403197
+F1-Score: 0.99732858415
+
+LiberalJudaism
+Accurary: 0.873493975904
+F1-Score: 0.932475884244
+
+MalcolmX
+Accurary: 0.6
+F1-Score: 0.75
+
+MehrBaba
+Accurary: 0.0891089108911
+F1-Score: 0.163636363636
+
+NaumanKhan
+Accurary: 0.133333333333
+F1-Score: 0.235294117647
+
+nusra-front
+Accurary: 1.0
+F1-Score: 1.0
+
+PastorAnderson
+Accurary: 1.0
+F1-Score: 1.0
+
+PeterGomes
+Accurary: 1.0
+F1-Score: 1.0
+
+Rabbinic
+Accurary: 1.0
+F1-Score: 1.0
+
+Schizophrenia
+Accurary: 0.0
+F1-Score: 0.0
+
+SeaShepherds
+Accurary: 0.980099502488
+F1-Score: 0.989949748744
+
+Shepherd
+Accurary: 0.997252747253
+F1-Score: 0.998624484182
+
+Stalin
+Accurary: 1.0
+F1-Score: 1.0
+
+taliban
+Accurary: 1.0
+F1-Score: 1.0
+
+Unabomber
+Accurary: 1.0
+F1-Score: 1.0
+
+Unitarian
+Accurary: 0.346590909091
+F1-Score: 0.514767932489
+
+WBC
+Accurary: 0.988179669031
+F1-Score: 0.99405469679
+
+hamza-yusuf
+Accurary: 0.0
+F1-Score: 0.0
+
+yasir-qadhi
+Accurary: 0.0
+F1-Score: 0.0
+
+zakir-naik
+Accurary: 0.304347826087
+F1-Score: 0.466666666667
+
+suhaib-webb
+Accurary: 0.0
+F1-Score: 0.0
+
+KKK
+Accurary: 0.981132075472
+F1-Score: 0.990476190476
+
+white-supremacist
+Accurary: 0.836917562724
+F1-Score: 0.911219512195

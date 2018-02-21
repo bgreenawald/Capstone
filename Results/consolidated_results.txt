@@ -1,0 +1,18 @@
+2/20/18 - Random Forest
+English first baseline run with oversampling
+
+Violent group average F-1 0.9916650347242307
+Non-Violent group average F-1: 0.4816098365498479
+
+2/20/18 - SVM
+English first baseline run with oversampling
+
+Violent group average F-1 0.895330155239077
+Non-Violent group average F-1: 0.5752998902172566
+
+2/20/18 - XGBoost
+English first baseline run with oversampling
+
+Violent group average F-1 0.7837830400808461
+Non-Violent group average F-1: 0.7689959589693042
+

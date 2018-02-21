@@ -64,8 +64,6 @@ Group PeterGomes, Accuracy: 1.0
 0 class (1.0/1.0/1.0): Precision=1.0,Recall=1.0,F1-Measure=1.0
 1 class (0.0/0.0/0.0): Precision=NaN,Recall=NaN,F1-Measure=NaN
 
-English Language Agnostic English, Logistic Regression first run and feature export
-
 Group Schizophrenia, Accuracy: 0.6875
 0 class (33.0/33.0/48.0): Precision=1.0,Recall=0.6875,F1-Measure=0.8148148148148148
 1 class (15.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
@@ -121,4 +119,28 @@ Group KKK, Accuracy: 0.49056603773584906
 Group white-supremacist, Accuracy: 0.5394265232974911
 0 class (257.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
 1 class (301.0/301.0/558.0): Precision=1.0,Recall=0.5394265232974911,F1-Measure=0.7008149010477299
+
+Group DorothyDay, Accuracy: 0.8772609819121447
+0 class (679.0/679.0/774.0): Precision=1.0,Recall=0.8772609819121447,F1-Measure=0.9346180316586373
+1 class (95.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group Ghandi, Accuracy: 1.0
+0 class (12.0/12.0/12.0): Precision=1.0,Recall=1.0,F1-Measure=1.0
+1 class (0.0/0.0/0.0): Precision=NaN,Recall=NaN,F1-Measure=NaN
+
+Group LiberalJudaism, Accuracy: 0.9216867469879518
+0 class (153.0/153.0/166.0): Precision=1.0,Recall=0.9216867469879518,F1-Measure=0.9592476489028214
+1 class (13.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group MalcolmX, Accuracy: 0.2
+0 class (3.0/3.0/15.0): Precision=1.0,Recall=0.2,F1-Measure=0.33333333333333337
+1 class (12.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group PastorAnderson, Accuracy: 0.9956140350877193
+0 class (227.0/227.0/228.0): Precision=1.0,Recall=0.9956140350877193,F1-Measure=0.9978021978021978
+1 class (1.0/0.0/0.0): Precision=0.0,Recall=NaN,F1-Measure=NaN
+
+Group Rabbinic, Accuracy: 1.0
+0 class (58.0/58.0/58.0): Precision=1.0,Recall=1.0,F1-Measure=1.0
+1 class (0.0/0.0/0.0): Precision=NaN,Recall=NaN,F1-Measure=NaN
 

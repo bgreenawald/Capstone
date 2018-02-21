@@ -12,17 +12,10 @@ def readData(groupName, base_dir, train=True, colLen = None):
 
     if train:
         print("Reading in train features for " + groupName)
-        try:
-            filename = "{0}/{1}TrainFeatures.txt".format(groupName, groupName)
-        except FileNotFoundError:
-            print("{0}/{1}TrainFeatures.txt".format(groupName, groupName) + " not found")
-
+        filename = "{0}/{1}TrainFeatures.txt".format(groupName, groupName)
     else:
         print("Reading in test features for " + groupName)
-        try:
-            filename = "{0}/{1}TestFeatures.txt".format(groupName, groupName)
-        except FileNotFoundError:
-            print("{0}/{1}TestFeatures.txt".format(groupName, groupName) + " not found.")
+        filename = "{0}/{1}TestFeatures.txt".format(groupName, groupName)
 
     with open(base_dir + filename, "r") as Features:
         rows = np.array([int(x.strip()) for x in Features.readline().strip().split(",")])
@@ -43,16 +36,10 @@ def readData(groupName, base_dir, train=True, colLen = None):
 
     if train:
         print("Reading in train labels for " + groupName)
-        try:
-            filename = "{0}/{1}TrainLabels.txt".format(groupName, groupName)
-        except FileNotFoundError:
-            print("{0}/{1}TrainLabels.txt".format(groupName, groupName) + " not found.")
+        filename = "{0}/{1}TrainLabels.txt".format(groupName, groupName)
     else:
         print("Reading in test labels for " + groupName)
-        try:
-            filename = "{0}/{1}TestLabels.txt".format(groupName, groupName)
-        except FileNotFoundError:
-            print("{0}/{1}TestLabels.txt".format(groupName, groupName) + " not found.")
+        filename = "{0}/{1}TestLabels.txt".format(groupName, groupName)
 
     # Read in the labels
     with open(base_dir + filename, "r") as Labels:
@@ -77,40 +64,24 @@ def evaluateGridSearch(clf):
 
 # List of group names
 groups = [
-    "ACLU",
-    "AEU",
-    "alqaeda",
-    "AndrewMurray",
-    "aqis",
-    "asl",
-    "ast",
-    "Bahai",
-    "boko-haram",
-    "DorothyDay",
-    "Ghandi",
-    "YV",
-    "ISIS",
-    "JohnPiper",
-    "LiberalJudaism",
-    "MalcolmX",
-    "MehrBaba",
-    "NaumanKhan",
-    "nusra-front",
-    "PastorAnderson",
-    "PeterGomes",
-    "Rabbinic",
-    "Schizophrenia",
-    "SeaShepherds",
-    "Shepherd",
-    "Stalin",
-    "taliban",
-    "Unabomber",
-    "Unitarian",
-    "WBC",
-    "hamza-yusuf",
-    "yasir-qadhi",
-    "zakir-naik",
-    "suhaib-webb",
-    "KKK",
-    "white-supremacist"
+        "Aljazeera",
+        "CNN",
+        "Mohamed Rateb Al-Nabulsi",
+        "Movement of Society for Peace",
+        "Tunisian General Union of Labor",
+        "Rabee al-Madkhali",
+        "Socialist Union Morocco",
+        "Salman Fahd Al-Ohda",
+        "Alarabiya",
+        "GA on Islamic Affairs",
+        "Al Shabaab",
+        "Ansar Al Sharia",
+        "AQIM",
+        "Azawad",
+        "ISIS",
+        "Syrian Democratic Forces",
+        "Houthis",
+        "Hezbollah",
+        "Hamas",
+        "Al-Boraq"
 ]

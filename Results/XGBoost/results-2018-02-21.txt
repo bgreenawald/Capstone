@@ -1,0 +1,146 @@
+English documents first run with oversampling
+
+ACLU
+Accurary: 0.368421052632
+F1-Score: 0.538461538462
+
+AEU
+Accurary: 0.0666666666667
+F1-Score: 0.125
+
+alqaeda
+Accurary: 0.586206896552
+F1-Score: 0.739130434783
+
+AndrewMurray
+Accurary: 1.0
+F1-Score: 1.0
+
+aqis
+Accurary: 0.833333333333
+F1-Score: 0.909090909091
+
+asl
+Accurary: 0.571428571429
+F1-Score: 0.727272727273
+
+ast
+Accurary: 0.666666666667
+F1-Score: 0.8
+
+Bahai
+Accurary: 0.366197183099
+F1-Score: 0.536082474227
+
+boko-haram
+Accurary: 0.352941176471
+F1-Score: 0.521739130435
+
+DorothyDay
+Accurary: 0.841085271318
+F1-Score: 0.913684210526
+
+Ghandi
+Accurary: 0.916666666667
+F1-Score: 0.95652173913
+
+YV
+Accurary: 0.719298245614
+F1-Score: 0.836734693878
+
+ISIS
+Accurary: 0.7
+F1-Score: 0.823529411765
+
+JohnPiper
+Accurary: 0.998223801066
+F1-Score: 0.999111111111
+
+LiberalJudaism
+Accurary: 0.939759036145
+F1-Score: 0.968944099379
+
+MalcolmX
+Accurary: 0.0666666666667
+F1-Score: 0.125
+
+MehrBaba
+Accurary: 0.673267326733
+F1-Score: 0.804733727811
+
+NaumanKhan
+Accurary: 0.6
+F1-Score: 0.75
+
+nusra-front
+Accurary: 0.545454545455
+F1-Score: 0.705882352941
+
+PastorAnderson
+Accurary: 1.0
+F1-Score: 1.0
+
+PeterGomes
+Accurary: 1.0
+F1-Score: 1.0
+
+Rabbinic
+Accurary: 1.0
+F1-Score: 1.0
+
+Schizophrenia
+Accurary: 0.5
+F1-Score: 0.666666666667
+
+SeaShepherds
+Accurary: 0.885572139303
+F1-Score: 0.939313984169
+
+Shepherd
+Accurary: 0.987637362637
+F1-Score: 0.993780234969
+
+Stalin
+Accurary: 0.5
+F1-Score: 0.666666666667
+
+taliban
+Accurary: 0.833333333333
+F1-Score: 0.909090909091
+
+Unabomber
+Accurary: 1.0
+F1-Score: 1.0
+
+Unitarian
+Accurary: 0.647727272727
+F1-Score: 0.786206896552
+
+WBC
+Accurary: 0.995271867612
+F1-Score: 0.997630331754
+
+hamza-yusuf
+Accurary: 0.571428571429
+F1-Score: 0.727272727273
+
+yasir-qadhi
+Accurary: 0.5
+F1-Score: 0.666666666667
+
+zakir-naik
+Accurary: 0.521739130435
+F1-Score: 0.685714285714
+
+suhaib-webb
+Accurary: 0.4375
+F1-Score: 0.608695652174
+
+KKK
+Accurary: 0.566037735849
+F1-Score: 0.722891566265
+
+white-supremacist
+Accurary: 0.568100358423
+F1-Score: 0.724571428571
+

@@ -1,0 +1,145 @@
+English first baseline run with oversampling
+
+ACLU
+Accurary: 0.0
+0.0
+
+AEU
+Accurary: 0.2
+0.333333333333
+
+alqaeda
+Accurary: 0.758620689655
+0.862745098039
+
+AndrewMurray
+Accurary: 0.0
+0.0
+
+aqis
+Accurary: 1.0
+1.0
+
+asl
+Accurary: 1.0
+1.0
+
+ast
+Accurary: 1.0
+1.0
+
+Bahai
+Accurary: 0.0281690140845
+0.0547945205479
+
+boko-haram
+Accurary: 0.823529411765
+0.903225806452
+
+DorothyDay
+Accurary: 0.900516795866
+0.947654656696
+
+Ghandi
+Accurary: 1.0
+1.0
+
+YV
+Accurary: 0.157894736842
+0.272727272727
+
+ISIS
+Accurary: 0.9
+0.947368421053
+
+JohnPiper
+Accurary: 0.998223801066
+0.999111111111
+
+LiberalJudaism
+Accurary: 0.969879518072
+0.984709480122
+
+MalcolmX
+Accurary: 0.133333333333
+0.235294117647
+
+MehrBaba
+Accurary: 0.435643564356
+0.606896551724
+
+NaumanKhan
+Accurary: 0.6
+0.75
+
+nusra-front
+Accurary: 0.818181818182
+0.9
+
+PastorAnderson
+Accurary: 0.986842105263
+0.993377483444
+
+PeterGomes
+Accurary: 1.0
+1.0
+
+Rabbinic
+Accurary: 1.0
+1.0
+
+Schizophrenia
+Accurary: 0.25
+0.4
+
+SeaShepherds
+Accurary: 0.787728026534
+0.881261595547
+
+Shepherd
+Accurary: 0.989010989011
+0.994475138122
+
+Stalin
+Accurary: 1.0
+1.0
+
+taliban
+Accurary: 1.0
+1.0
+
+Unabomber
+Accurary: 0.592592592593
+0.744186046512
+
+Unitarian
+Accurary: 0.448863636364
+0.619607843137
+
+WBC
+Accurary: 0.985815602837
+0.992857142857
+
+hamza-yusuf
+Accurary: 0.0
+0.0
+
+yasir-qadhi
+Accurary: 0.0
+0.0
+
+zakir-naik
+Accurary: 0.478260869565
+0.647058823529
+
+suhaib-webb
+Accurary: 0.25
+0.4
+
+KKK
+Accurary: 0.358490566038
+0.527777777778
+
+white-supremacist
+Accurary: 0.774193548387
+0.872727272727

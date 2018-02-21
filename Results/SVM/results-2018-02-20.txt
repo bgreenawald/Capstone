@@ -1,0 +1,38 @@
+English first baseline run with oversampling
+
+ACLU
+Accurary: 0.0
+0.0
+
+AEU
+Accurary: 0.2
+0.333333333333
+
+alqaeda
+Accurary: 0.758620689655
+0.862745098039
+
+AndrewMurray
+Accurary: 0.0
+0.0
+
+aqis
+Accurary: 1.0
+1.0
+
+asl
+Accurary: 1.0
+1.0
+
+ast
+Accurary: 1.0
+1.0
+
+Bahai
+Accurary: 0.0281690140845
+0.0547945205479
+
+boko-haram
+Accurary: 0.823529411765
+0.903225806452
+
