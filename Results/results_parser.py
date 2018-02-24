@@ -16,7 +16,7 @@ with open(group_labels_dir, "r") as file:
 print(group_labels)
 
 # Parse the actual results
-results_file ="C:/Users/bgree/Documents/capstone/Results/SVM/results-2018-02-21.txt"
+results_file ="C:/Users/bgree/Documents/capstone/Results/XGBoost/results-2018-02-24.txt"
 
 # Lists to hold f-1 scores
 pos_f1 = []
@@ -43,6 +43,7 @@ with open(results_file, "r") as file:
 
             acc_line = lines[line+1].split(": ")
             acc = acc_line[1].strip()
+            accuracy.append(float(acc))
     file.close()
 
 print("Overall accuracy: " + str(sum(accuracy)/len(accuracy)))

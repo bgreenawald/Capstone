@@ -1,0 +1,146 @@
+English baseline with group bug fix
+
+ACLU
+Accurary: 0.0
+F1-Score: 0.0
+
+AEU
+Accurary: 0.2
+F1-Score: 0.333333333333
+
+alqaeda
+Accurary: 1.0
+F1-Score: 1.0
+
+AndrewMurray
+Accurary: 1.0
+F1-Score: 1.0
+
+aqis
+Accurary: 1.0
+F1-Score: 1.0
+
+asl
+Accurary: 1.0
+F1-Score: 1.0
+
+ast
+Accurary: 1.0
+F1-Score: 1.0
+
+Bahai
+Accurary: 0.342465753425
+F1-Score: 0.510204081633
+
+boko-haram
+Accurary: 1.0
+F1-Score: 1.0
+
+DorothyDay
+Accurary: 0.645994832041
+F1-Score: 0.784929356358
+
+Ghandi
+Accurary: 1.0
+F1-Score: 1.0
+
+YV
+Accurary: 0.71186440678
+F1-Score: 0.831683168317
+
+ISIS
+Accurary: 0.671875
+F1-Score: 0.803738317757
+
+JohnPiper
+Accurary: 0.998272884283
+F1-Score: 0.999135695765
+
+LiberalJudaism
+Accurary: 0.873493975904
+F1-Score: 0.932475884244
+
+MalcolmX
+Accurary: 0.666666666667
+F1-Score: 0.8
+
+MehrBaba
+Accurary: 0.788679245283
+F1-Score: 0.881856540084
+
+NaumanKhan
+Accurary: 0.964285714286
+F1-Score: 0.981818181818
+
+nusra-front
+Accurary: 1.0
+F1-Score: 1.0
+
+PastorAnderson
+Accurary: 1.0
+F1-Score: 1.0
+
+PeterGomes
+Accurary: 1.0
+F1-Score: 1.0
+
+Rabbinic
+Accurary: 1.0
+F1-Score: 1.0
+
+Schizophrenia
+Accurary: 0.171428571429
+F1-Score: 0.292682926829
+
+SeaShepherds
+Accurary: 0.864462809917
+F1-Score: 0.927304964539
+
+Shepherd
+Accurary: 1.0
+F1-Score: 1.0
+
+Stalin
+Accurary: 0.666666666667
+F1-Score: 0.8
+
+taliban
+Accurary: 1.0
+F1-Score: 1.0
+
+Unabomber
+Accurary: 0.962962962963
+F1-Score: 0.981132075472
+
+Unitarian
+Accurary: 0.909698996656
+F1-Score: 0.952714535902
+
+WBC
+Accurary: 0.995271867612
+F1-Score: 0.997630331754
+
+hamza-yusuf
+Accurary: 0.875
+F1-Score: 0.933333333333
+
+yasir-qadhi
+Accurary: 0.981308411215
+F1-Score: 0.990566037736
+
+zakir-naik
+Accurary: 0.5
+F1-Score: 0.666666666667
+
+suhaib-webb
+Accurary: 0.7
+F1-Score: 0.823529411765
+
+KKK
+Accurary: 0.559139784946
+F1-Score: 0.71724137931
+
+white-supremacist
+Accurary: 0.46584938704
+F1-Score: 0.635603345281
+

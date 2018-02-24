@@ -1,0 +1,146 @@
+English baseline with group bug fix
+
+ACLU
+Accurary: 0.0769230769231
+F1-Score: 0.142857142857
+
+AEU
+Accurary: 0.533333333333
+F1-Score: 0.695652173913
+
+alqaeda
+Accurary: 0.862068965517
+F1-Score: 0.925925925926
+
+AndrewMurray
+Accurary: 0.0
+F1-Score: 0.0
+
+aqis
+Accurary: 0.833333333333
+F1-Score: 0.909090909091
+
+asl
+Accurary: 1.0
+F1-Score: 1.0
+
+ast
+Accurary: 0.833333333333
+F1-Score: 0.909090909091
+
+Bahai
+Accurary: 0.753424657534
+F1-Score: 0.859375
+
+boko-haram
+Accurary: 0.882352941176
+F1-Score: 0.9375
+
+DorothyDay
+Accurary: 0.922480620155
+F1-Score: 0.959677419355
+
+Ghandi
+Accurary: 1.0
+F1-Score: 1.0
+
+YV
+Accurary: 1.0
+F1-Score: 1.0
+
+ISIS
+Accurary: 0.28125
+F1-Score: 0.439024390244
+
+JohnPiper
+Accurary: 1.0
+F1-Score: 1.0
+
+LiberalJudaism
+Accurary: 0.963855421687
+F1-Score: 0.981595092025
+
+MalcolmX
+Accurary: 0.8
+F1-Score: 0.888888888889
+
+MehrBaba
+Accurary: 0.984905660377
+F1-Score: 0.992395437262
+
+NaumanKhan
+Accurary: 1.0
+F1-Score: 1.0
+
+nusra-front
+Accurary: 1.0
+F1-Score: 1.0
+
+PastorAnderson
+Accurary: 0.609649122807
+F1-Score: 0.757493188011
+
+PeterGomes
+Accurary: 1.0
+F1-Score: 1.0
+
+Rabbinic
+Accurary: 0.98275862069
+F1-Score: 0.991304347826
+
+Schizophrenia
+Accurary: 0.614285714286
+F1-Score: 0.761061946903
+
+SeaShepherds
+Accurary: 0.347107438017
+F1-Score: 0.515337423313
+
+Shepherd
+Accurary: 0.918956043956
+F1-Score: 0.957766642806
+
+Stalin
+Accurary: 0.666666666667
+F1-Score: 0.8
+
+taliban
+Accurary: 0.833333333333
+F1-Score: 0.909090909091
+
+Unabomber
+Accurary: 0.407407407407
+F1-Score: 0.578947368421
+
+Unitarian
+Accurary: 0.973244147157
+F1-Score: 0.986440677966
+
+WBC
+Accurary: 0.997635933806
+F1-Score: 0.998816568047
+
+hamza-yusuf
+Accurary: 0.75
+F1-Score: 0.857142857143
+
+yasir-qadhi
+Accurary: 0.971962616822
+F1-Score: 0.985781990521
+
+zakir-naik
+Accurary: 0.785714285714
+F1-Score: 0.88
+
+suhaib-webb
+Accurary: 0.9
+F1-Score: 0.947368421053
+
+KKK
+Accurary: 0.333333333333
+F1-Score: 0.5
+
+white-supremacist
+Accurary: 0.535901926445
+F1-Score: 0.697833523375
+
