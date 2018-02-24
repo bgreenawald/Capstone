@@ -16,11 +16,12 @@ with open(group_labels_dir, "r") as file:
 print(group_labels)
 
 # Parse the actual results
-results_file ="C:/Users/bgree/Documents/capstone/Results/Logistic Regression/2-15-18.txt"
+results_file ="C:/Users/bgree/Documents/capstone/Results/Logistic Regression/2-23-18.txt"
 
 # Lists to hold f-1 scores
 pos_f1 = []
 neg_f1 = []
+accuracy = []
 
 with open(results_file, "r") as file:
 
@@ -31,16 +32,15 @@ with open(results_file, "r") as file:
         if (line + 2) % 4 == 0:
             group = lines[line].split(",")[0].split(" ")[1].strip()
             if group_labels[group] == 0:
-   #             res_line = lines[line+2].split(": ")
-    #            res = res_line[1].strip()
                 temp = lines[line+1].split("=")
                 neg_f1.append(float(temp[3]))
             else:
-     #           res_line = lines[line+2].split(": ")
-      #          res = res_line[1].strip()
                 temp = lines[line+2].split("=")
                 pos_f1.append(float(temp[3]))
+            acc = lines[line].split(": ")[1].strip()
+            accuracy.append(float(acc))
     file.close()
 
+print("Accuracy: " + str(sum(accuracy)/len(accuracy)))
 print("Violent group average F-1 " + str(sum(pos_f1)/len(pos_f1)))
 print("Non-Violent group average F-1: " + str(sum(neg_f1)/len(neg_f1)))

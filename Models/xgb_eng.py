@@ -10,43 +10,37 @@ from collections import Counter
 import pandas as pd
 import sys
 
-"""
-base_dir = "/home/benji/Capstone/Models/exported-features/"
-group = "Hamas"
-features, response = pr.readData(group, base_dir)
-print("Train feature shape: " + str(features.shape))
-print("Train label length: " + str(len(response)))
+# base_dir = "C:\\Users\\bgree\\Documents\\capstone\\Eng\\exported-features\\"
+# group = "yasir-qadhi"
+# features, response = pr.readData(group, base_dir)
+# print("Train feature shape: " + str(features.shape))
+# print("Train label length: " + str(len(response)))
 
-### Grid Search not efficiently supported with XGBoost,
-# resort to manual parameter search
-xg_train = xgb.DMatrix(features, label = response)
-del features, response
-n_folds = 3
-early_stopping = 50
-params = {'max_depth': 10, 'nthread':3, 'n_estimators':500,
-'learning_rate':0.5, 'objective': 'binary:logistic', 'subsample':0.7}
-cv = xgb.cv(params, xg_train, nfold=n_folds, early_stopping_rounds=early_stopping, verbose_eval=1)
-print(cv)
+# ros = RandomOverSampler(random_state=0)
+# features, response = ros.fit_sample(features, response)
+# print(sorted(Counter(response).items()))
+# xg_train = xgb.DMatrix(features, label = response)
+# del features, response
+# n_folds = 3
+# early_stopping = 50
+# params = {'max_depth': 10, 'n_estimators':1000,
+# 'learning_rate':0.1, 'objective': 'binary:logistic', 'subsample':0.7}
+# cv = xgb.cv(params, xg_train, nfold=n_folds, early_stopping_rounds=early_stopping, verbose_eval=1)
+# print(cv)
+# sys.exit()
 
-Results for group Hamas
-Test RMSE for 3 Fold CV, all with early stopping at 10
-Depth: 5, Learning Rate:1 , NTrees: 10      0.184657
-Depth: 5, Learning Rate:1 , NTrees: 100       0.184657
-Depth: 10, Learning Rate:1 , NTrees: 100       0.196157
-Depth: 10, Learning Rate:0.5 , NTrees: 100      0.153139
-Depth: 10, Learning Rate:0.1 , NTrees: 100       0.24192
+'''
+Depth: [6,8,10]
+Estimators: [100,500,1000]
+Learning rate: [0.1,0.5,1]
+Depth: 6, Learning Rate:1 , NTrees: 100      0.025215
+Depth: 8, Learning Rate:1 , NTrees: 100      0.0206537
+Depth: 10, Learning Rate:1 , NTrees: 100     0.0184997
+Depth: 10, Learning Rate:1 , NTrees: 1000    0.0184997
+Depth: 10, Learning Rate:0.5 , NTrees: 1000   0.0183723
+Depth: 10, Learning Rate:0.1 , NTrees: 1000   0.039407
 
-Change early stopping to 25
-Depth: 10, Learning Rate:0.5 , NTrees: 100      0.153139
-Depth: 10, Learning Rate:0.1 , NTrees: 100       0.24192
-
-Change objective to binary logistic
-Depth: 10, Learning Rate:0.5 , NTrees: 100      0.025562
-Depth: 10, Learning Rate:0.1 , NTrees: 100      0.039132
-
-Change subsample to 0.7
-Depth: 10, Learning Rate:0.5 , NTrees: 100      0.026114
-"""
+'''
 # From the results, we see that depth is much more important
 # than the number of estimators.
 
@@ -60,10 +54,18 @@ if len(sys.argv) > 1:
         file.write(sys.argv[1] + "\n\n")
         file.close()
 
+eng_base = "C:\\Users\\bgree/Documents/capstone/Eng/exported-features/"
+
 for group in pr.groups:
     features, response = pr.readData(group, base_dir)
     print("Train feature shape: " + str(features.shape))
     print("Train label length: " + str(len(response)))
+
+    # If eng base, read in the file list
+    if eng_base:
+        with open(eng_base + group + "/fileList.txt", "r") as file:
+            files = [x for x in file.readlines()]
+            file.close()
 
     ros = RandomOverSampler(random_state=0)
     features, response = ros.fit_sample(features, response)
@@ -73,7 +75,7 @@ for group in pr.groups:
     response = np.array(response)
 
     xg_train = xgb.DMatrix(features, label = response)
-    params = {'max_depth': 10, 'nthread':6, 'n_estimators':500,
+    params = {'max_depth': 10, 'nthread':6, 'n_estimators':1000,
     'learning_rate':0.5, 'objective': 'binary:logistic'}
     bst = xgb.train(params, xg_train, verbose_eval = 0)
 
@@ -88,6 +90,14 @@ for group in pr.groups:
     preds = np.array(preds1)
     preds[preds >= 0.5] = 1
     preds[preds < 0.5] = 0
+
+    # Write the probabilites to a file
+    probs = ""
+    for index, prob in enumerate(preds1):
+        probs += files[index].split("\\")[-1].strip() + ", " + str(prob) + "\n"
+    with open(eng_base + group + "/{0}_XGB_eng_preds.txt".format(group), "w+") as file:
+        file.write(probs)
+        file.close()
 
     print(preds)
     print(sum(preds == test_response)/len(preds))

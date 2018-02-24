@@ -144,3 +144,19 @@ Group Rabbinic, Accuracy: 1.0
 0 class (58.0/58.0/58.0): Precision=1.0,Recall=1.0,F1-Measure=1.0
 1 class (0.0/0.0/0.0): Precision=NaN,Recall=NaN,F1-Measure=NaN
 
+English Language Agnostic English, Logistic Regression first run and feature export
+
+English Language Agnostic English, Logistic Regression first run and feature export
+
+English Language Agnostic English, Logistic Regression first run and feature export
+
+English Language Agnostic English, Logistic Regression first run and feature export
+
+English Language Agnostic English, Logistic Regression first run and feature export
+
+English Language Agnostic English, Logistic Regression first run and feature export
+
+English Language Agnostic English, Logistic Regression first run and feature export
+
+English Language Agnostic English, Logistic Regression first run and feature export
+

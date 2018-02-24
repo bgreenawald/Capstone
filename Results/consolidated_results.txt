@@ -22,3 +22,9 @@ English first baseline run with oversampling
 Violent group average F-1 0.7837830400808461
 Non-Violent group average F-1: 0.7689959589693042
 
+2/23/15 - LR
+Fixed read in bug
+
+Accuracy: 0.8181449655311633
+Violent group average F-1 0.8408553832916379
+Non-Violent group average F-1: 0.8936332647730023
