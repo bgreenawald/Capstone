@@ -83,7 +83,7 @@
       <column caption='Words' datatype='string' name='[words]' role='dimension' type='nominal' />
       <column caption='X' datatype='real' name='[x]' role='measure' type='quantitative' />
       <column caption='Y' datatype='real' name='[y]' role='measure' type='quantitative' />
-      <layout dim-ordering='alphabetic' dim-percentage='0.47335' measure-ordering='alphabetic' measure-percentage='0.52665' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.472074' measure-ordering='alphabetic' measure-percentage='0.527926' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
