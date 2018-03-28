@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/bgree/Downloads/stanford-corenlp-full-2018-01-31/stanford-corenlp-full-2018-01-31/stanford-corenlp-3.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bgree/Downloads/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bgree/Downloads/apache-opennlp-1.8.4-bin/apache-opennlp-1.8.4/lib/opennlp-tools-1.8.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
