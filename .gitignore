@@ -9,5 +9,9 @@ Models/Ben_LR_Arabic/.project
 Models/exported-features
 Models/xgboost
 Eng/
-Models/Ben_LR_English
 Results/LR_Probs
+Models/ar_cnn_log_logocv_aug_prob.txt
+Models/ar_lstm_log_logocv_aug_prob.txt
+*.csv
+Ar/
+*.zip
